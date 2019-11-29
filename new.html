@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">  
+	<title></title>
+	<style>
+		body{
+			background:#000;color:#fff;
+		}
+	</style>
+</head>
+<body>
+ <audio id="audio" autoplay='autoplay' loop='loop'>
+    <source src="an.mp3" type="audio/ogg">
+    <source src="an.mp3" type="audio/mpeg">
+</audio>
+<!-- <embed src="an.mp3" width=0 height=0 type=audio/mpeg loop="1" autostart="true" volume="0"></embed>  -->
+<div id="app">an.mp3
+
+</div>
+
+
+<style id="style">
+
+	</style>
+<script>
+var sty = ``;
+var code = `     <h2>2018悄然而至...</h2>	
+			<h2>传秀祝大家在新的一年身体健康，</h2>
+			<h2>心想事成,</h2> 
+			<h2>阖家团圆,</h2>
+			<h2>狗年吉祥行大运</h2>
+			<h2>鸿运滚滚~</h2>
+			<h2>如涛涛江水一发不可收拾...</h2>
+			<h2>              ^_^</h2>
+		
+		`
+var n=0;
+setInterval(function(){
+	app.innerHTML=code.substring(0,n);
+	style.innerHTML = sty.substring(0,n);
+	n++
+},150)
+
+
+</script>
+</body>
+</html>
